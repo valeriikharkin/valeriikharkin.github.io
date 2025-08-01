@@ -1,0 +1,26 @@
+/* Custom font-family for a professional look */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Simple utility to ensure smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Initially hide the mobile menu */
+#mobile-menu {
+  display: none;
+}
+
+/* Styles for the collapsible work history details */
+.collapsible {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Styles for when the collapsible section is expanded */
+.collapsible.expanded {
+  max-height: 500px; /* A value large enough to show all content */
+}
